@@ -1,0 +1,84 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+ul {
+	width: 180px;
+	height: 250px;
+	
+}
+.favorite {
+	border-radius: 10%;
+	background-color: rgb(189, 180, 7);
+	max-height: 50px;
+	max-width: 80px
+}
+.displayBox
+{
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+	
+}
+.whatIDo{
+	display: flexbox;
+	background-image: url("./yayDebug.jpg");
+	color:black;
+	background-repeat: no-repeat;
+	background-size: 180px 250px;
+	margin-right: 10px;
+	
+}
+.whatSup{
+	display: flexbox;
+	margin-right: 10px;
+	background-image: url("./machuPichu.jpg");
+	color:white;
+	background-repeat: no-repeat;
+	background-size: 180px 250px;
+	
+}
+.whereImGoing{
+	display: flexbox;
+	background-image: url("./astroNaut.jpg");
+	color:white;
+	background-repeat: no-repeat;
+	background-size: 180px 250px;
+
+}
+
