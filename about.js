@@ -7,6 +7,7 @@ console.log("hello world");
 function handleSubmit(evt) {
 	evt.preventDefault();
 	alert("The Form was submitted Successfully");
+	//console.log('form submit');
 }
 
 
